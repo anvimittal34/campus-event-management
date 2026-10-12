@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>College Events</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h2>Campus Connect</h2>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="events.html">Events</a>
+            <a href="register.html">Register</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>College Events</h1>
+
+        <div class="container">
+            <div class="card">
+                <h3>Rhythm Night</h3>
+                <p>Date: 18 October 2026</p>
+                <p>Venue: Auditorium</p>
+                <p>Music and dance performances.</p>
+            </div>
+
+            <div class="card">
+                <h3>Creative Minds</h3>
+                <p>Date: 22 October 2026</p>
+                <p>Venue: Seminar Hall</p>
+                <p>Creative activities and workshops.</p>
+            </div>
+
+            <div class="card">
+                <h3>CodeSprint</h3>
+                <p>Date: 28 October 2026</p>
+                <p>Venue: Computer Lab</p>
+                <p>Coding competitions.</p>
+            </div>
+
+            <div class="card" id="eventCard">
+                <h3>Art and Expression</h3>
+                <p>Date: 3 November 2026</p>
+                <p>Venue: Activity Centre</p>
+                <p>Art, photography and design.</p>
+            </div>
+        </div>
+
+        <h2>Add Your Event</h2>
+
+        <input type="text" id="eventName"
+               placeholder="Enter event name">
+
+        <button onclick="addEvent()">Add Event</button>
+
+        <p id="eventMessage"></p>
+        <div id="eventList"></div>
+
+        <button onclick="changeEventCard()">
+            Change Event Card
+        </button>
+    </main>
+</body>
+</html>
