@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Campus Connect</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h2>Campus Connect</h2>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="events.html">Events</a>
+            <a href="register.html">Register</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1 id="heading">Welcome to Campus Connect!</h1>
+        <p>Discover exciting events happening at your college.</p>
+
+        <button onclick="changeHeading()">Change Heading</button>
+
+        <h2>Upcoming Events</h2>
+
+        <div class="container">
+            <div class="card" id="card1">
+                <h3>Rhythm Night</h3>
+                <p>Date: 18 October 2026</p>
+                <p>Enjoy music and dance performances.</p>
+                <button onclick="changeColor()">Change Color</button>
+            </div>
+
+            <div class="card">
+                <h3>Creative Minds</h3>
+                <p>Date: 22 October 2026</p>
+                <p>Participate in creative workshops.</p>
+            </div>
+
+            <div class="card">
+                <h3>CodeSprint</h3>
+                <p>Date: 28 October 2026</p>
+                <p>Show your coding skills.</p>
+            </div>
+        </div>
+
+        <section id="highlights">
+            <h2>Event Highlights</h2>
+            <p>Meet new people, learn skills and enjoy college life!</p>
+        </section>
+
+        <button onclick="toggleHighlights()">Show/Hide Highlights</button>
+    </main>
+</body>
+</html>
